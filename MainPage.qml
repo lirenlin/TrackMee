@@ -3,7 +3,6 @@ import QtQuick 1.1
 import com.nokia.meego 1.1
 import com.nokia.extras 1.1
 
-import QtMobility.location 1.1
 
 //import "js/script.js" as Script
 
@@ -12,12 +11,6 @@ Page {
     //orientationLock: PageOrientation.LockPortrait
     anchors.centerIn: parent
 
-    PositionSource {
-        id: positionSource
-        updateInterval: 1000
-        active: false
-        onPositionChanged: { }
-    }
 
 
     Rectangle {
